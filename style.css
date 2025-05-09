@@ -1,1 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0; 
+    font-family: Arial, sans-serif;
+}
+
+.parallax-section {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    color: white; 
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#section1 {
+    background-image: url('Apophis1.jpg'); 
+}
+
+#section2 {
+    background-image: url('Apophis2.jpg'); 
+}
+
+.content-section {
+    background-color: #f1f1f1;
+    color: blue;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000; 
+}
+
+.content-section p {
+    
+    font-size: 3em;
+}
+footer{
+    text-align: center;
+    color: rgba(6, 189, 244, 0.841);
+}
 
